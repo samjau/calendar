@@ -5,20 +5,20 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>B96D70A2-2A36-40EE-AF81-07006622F42C</string>
+	<string>3EA37DEE-07B7-4E2F-8A35-530F0D17C377</string>
 	<key>IDESourceControlProjectName</key>
-	<string>calendar</string>
+	<string>Calendar</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>866491C86C8AFB991E813C3E3B12BF3DC0C49F11</key>
 		<string>https://github.com/samjau/cal.me.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>calendar.xcodeproj</string>
+	<string>Calendar/Calendar.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>866491C86C8AFB991E813C3E3B12BF3DC0C49F11</key>
-		<string>../..</string>
+		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/samjau/cal.me.git</string>
@@ -34,7 +34,7 @@
 			<key>IDESourceControlWCCIdentifierKey</key>
 			<string>866491C86C8AFB991E813C3E3B12BF3DC0C49F11</string>
 			<key>IDESourceControlWCCName</key>
-			<string>cal.me</string>
+			<string>Calendar</string>
 		</dict>
 	</array>
 </dict>

@@ -1,14 +1,14 @@
 //
-//  TimeViewController.swift
-//  calendar
+//  CalendarViewController.swift
+//  Calendar
 //
-//  Created by Sam Jau on 8/18/14.
+//  Created by Sam Jau on 8/24/14.
 //  Copyright (c) 2014 codepath. All rights reserved.
 //
 
 import UIKit
 
-class TimeViewController: UIViewController {
+class CalendarViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,9 +22,6 @@ class TimeViewController: UIViewController {
     }
     
 
-    @IBAction func onConfirmButton(sender: AnyObject) {
-        dismissViewControllerAnimated(false, completion: nil)
-    }
     /*
     // MARK: - Navigation
 
