@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>calendar.xcscheme</key>
+		<key>Calendar.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,12 +12,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>397F224219A2B06000BFFEF7</key>
+		<key>39D0316719AB10E600C48260</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>397F225419A2B06000BFFEF7</key>
+		<key>39D0317919AB10E600C48260</key>
 		<dict>
 			<key>primary</key>
 			<true/>
