@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>51FBDB56-882F-4BEC-AF7E-2F63887DDC50</string>
+	<key>IDESourceControlProjectName</key>
+	<string>modalTransitions</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>866491C86C8AFB991E813C3E3B12BF3DC0C49F11</key>
+		<string>https://github.com/samjau/cal.me.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>modalTransitions/modalTransitions.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>866491C86C8AFB991E813C3E3B12BF3DC0C49F11</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/samjau/cal.me.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>866491C86C8AFB991E813C3E3B12BF3DC0C49F11</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>866491C86C8AFB991E813C3E3B12BF3DC0C49F11</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Calendar</string>
+		</dict>
+	</array>
+</dict>
+</plist>

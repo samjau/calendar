@@ -15,13 +15,11 @@ class ViewController: UIViewController {
     @IBOutlet weak var weekImageView: UIImageView!
     @IBOutlet weak var dayImageView: UIImageView!
     @IBOutlet weak var dayView: UIView!
-    @IBOutlet weak var dayScrollView: UIScrollView!
     var dayViewOrigY: CGFloat!
+    var dayImageViewOrigY: CGFloat!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        dayViewOrigY = dayView.center.y
-        dayScrollView.contentSize = dayImageView.frame.size
         monthImageView.alpha = 0
         monthLabelView.alpha = 0
     }
@@ -36,10 +34,17 @@ class ViewController: UIViewController {
         var velocity = panGesture.velocityInView(view)
         
         if panGesture.state == UIGestureRecognizerState.Began {
-            println("Began: \(point)")
+//            println("Began: \(dayImageView.center.y)")
             dayViewOrigY = dayView.center.y
+            dayImageViewOrigY = dayImageView.center.y
         } else if panGesture.state == UIGestureRecognizerState.Changed {
-            dayView.center.y = dayViewOrigY + translation.y
+            println("img: \(dayImageView.center.y)")
+            println("View: \(dayView.center.y)")
+            UIView.animateWithDuration(0.1, delay: 0, options: nil, animations: {
+                self.dayImageView.center.y = self.dayImageViewOrigY + translation.y
+                }, completion: nil)
+            
+            
         } else if panGesture.state == UIGestureRecognizerState.Ended {
         }
     }
